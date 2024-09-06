@@ -1,5 +1,6 @@
 #include "selection_sort.h"
 
+// SELECTION SORT - https://github.com/ppenna/playground/blob/main/sorting/selection-sort/c/main.c
 static void swap(type_t *x, type_t *y) {
     type_t tmp = *x;
     *x = *y;

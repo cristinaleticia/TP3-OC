@@ -11,15 +11,15 @@ void printArray(int vetor[], int n) {
 }
 
 int main(void){
-  int tamanho = 20;
+  int tamanho = 15500;
   int vetor[tamanho];
   srand(time(NULL));
   for (int i = 0; i < tamanho; i++){
     vetor[i] = (rand() % 200); // gerando uma posicao aleatoria que vai de 1 ate 200
   }
-  printArray(vetor, tamanho);
+  //printArray(vetor, tamanho);
   selection_externo(vetor, tamanho);
-  printArray(vetor, tamanho);
+  //printArray(vetor, tamanho);
 }
 
    
